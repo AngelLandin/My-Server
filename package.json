@@ -12,9 +12,14 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "servidor_activity.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "dependencies": {
+    "http": "^0.0.1-security"
   }
+
+  
 }
